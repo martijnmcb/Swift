@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843485171D4FD0A500FA5880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843485161D4FD0A500FA5880 /* AppDelegate.swift */; };
+		843485191D4FD0A500FA5880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843485181D4FD0A500FA5880 /* ViewController.swift */; };
+		8434851C1D4FD0A500FA5880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434851A1D4FD0A500FA5880 /* Main.storyboard */; };
+		8434851E1D4FD0A500FA5880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8434851D1D4FD0A500FA5880 /* Assets.xcassets */; };
+		843485211D4FD0A500FA5880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434851F1D4FD0A500FA5880 /* LaunchScreen.storyboard */; };
+		8434852C1D4FD0A500FA5880 /* Warmup_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434852B1D4FD0A500FA5880 /* Warmup_01Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843485281D4FD0A500FA5880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8434850B1D4FD0A500FA5880 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843485121D4FD0A500FA5880;
+			remoteInfo = "Warmup 01";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843485131D4FD0A500FA5880 /* Warmup 01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warmup 01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843485161D4FD0A500FA5880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843485181D4FD0A500FA5880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8434851B1D4FD0A500FA5880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8434851D1D4FD0A500FA5880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843485201D4FD0A500FA5880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843485221D4FD0A500FA5880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843485271D4FD0A500FA5880 /* Warmup 01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Warmup 01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8434852B1D4FD0A500FA5880 /* Warmup_01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warmup_01Tests.swift; sourceTree = "<group>"; };
+		8434852D1D4FD0A500FA5880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843485101D4FD0A500FA5880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843485241D4FD0A500FA5880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8434850A1D4FD0A500FA5880 = {
+			isa = PBXGroup;
+			children = (
+				843485151D4FD0A500FA5880 /* Warmup 01 */,
+				8434852A1D4FD0A500FA5880 /* Warmup 01Tests */,
+				843485141D4FD0A500FA5880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843485141D4FD0A500FA5880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843485131D4FD0A500FA5880 /* Warmup 01.app */,
+				843485271D4FD0A500FA5880 /* Warmup 01Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843485151D4FD0A500FA5880 /* Warmup 01 */ = {
+			isa = PBXGroup;
+			children = (
+				843485161D4FD0A500FA5880 /* AppDelegate.swift */,
+				843485181D4FD0A500FA5880 /* ViewController.swift */,
+				8434851A1D4FD0A500FA5880 /* Main.storyboard */,
+				8434851D1D4FD0A500FA5880 /* Assets.xcassets */,
+				8434851F1D4FD0A500FA5880 /* LaunchScreen.storyboard */,
+				843485221D4FD0A500FA5880 /* Info.plist */,
+			);
+			path = "Warmup 01";
+			sourceTree = "<group>";
+		};
+		8434852A1D4FD0A500FA5880 /* Warmup 01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8434852B1D4FD0A500FA5880 /* Warmup_01Tests.swift */,
+				8434852D1D4FD0A500FA5880 /* Info.plist */,
+			);
+			path = "Warmup 01Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843485121D4FD0A500FA5880 /* Warmup 01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843485301D4FD0A500FA5880 /* Build configuration list for PBXNativeTarget "Warmup 01" */;
+			buildPhases = (
+				8434850F1D4FD0A500FA5880 /* Sources */,
+				843485101D4FD0A500FA5880 /* Frameworks */,
+				843485111D4FD0A500FA5880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Warmup 01";
+			productName = "Warmup 01";
+			productReference = 843485131D4FD0A500FA5880 /* Warmup 01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843485261D4FD0A500FA5880 /* Warmup 01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843485331D4FD0A500FA5880 /* Build configuration list for PBXNativeTarget "Warmup 01Tests" */;
+			buildPhases = (
+				843485231D4FD0A500FA5880 /* Sources */,
+				843485241D4FD0A500FA5880 /* Frameworks */,
+				843485251D4FD0A500FA5880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843485291D4FD0A500FA5880 /* PBXTargetDependency */,
+			);
+			name = "Warmup 01Tests";
+			productName = "Warmup 01Tests";
+			productReference = 843485271D4FD0A500FA5880 /* Warmup 01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8434850B1D4FD0A500FA5880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pedro Prevost";
+				TargetAttributes = {
+					843485121D4FD0A500FA5880 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					843485261D4FD0A500FA5880 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 843485121D4FD0A500FA5880;
+					};
+				};
+			};
+			buildConfigurationList = 8434850E1D4FD0A500FA5880 /* Build configuration list for PBXProject "Warmup 01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8434850A1D4FD0A500FA5880;
+			productRefGroup = 843485141D4FD0A500FA5880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843485121D4FD0A500FA5880 /* Warmup 01 */,
+				843485261D4FD0A500FA5880 /* Warmup 01Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843485111D4FD0A500FA5880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843485211D4FD0A500FA5880 /* LaunchScreen.storyboard in Resources */,
+				8434851E1D4FD0A500FA5880 /* Assets.xcassets in Resources */,
+				8434851C1D4FD0A500FA5880 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843485251D4FD0A500FA5880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8434850F1D4FD0A500FA5880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843485191D4FD0A500FA5880 /* ViewController.swift in Sources */,
+				843485171D4FD0A500FA5880 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843485231D4FD0A500FA5880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434852C1D4FD0A500FA5880 /* Warmup_01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843485291D4FD0A500FA5880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843485121D4FD0A500FA5880 /* Warmup 01 */;
+			targetProxy = 843485281D4FD0A500FA5880 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8434851A1D4FD0A500FA5880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8434851B1D4FD0A500FA5880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8434851F1D4FD0A500FA5880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843485201D4FD0A500FA5880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8434852E1D4FD0A500FA5880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8434852F1D4FD0A500FA5880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843485311D4FD0A500FA5880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Warmup 01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.pedro.Warmup-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		843485321D4FD0A500FA5880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Warmup 01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.pedro.Warmup-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		843485341D4FD0A500FA5880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Warmup 01Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.pedro.Warmup-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warmup 01.app/Warmup 01";
+			};
+			name = Debug;
+		};
+		843485351D4FD0A500FA5880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Warmup 01Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.pedro.Warmup-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warmup 01.app/Warmup 01";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8434850E1D4FD0A500FA5880 /* Build configuration list for PBXProject "Warmup 01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8434852E1D4FD0A500FA5880 /* Debug */,
+				8434852F1D4FD0A500FA5880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843485301D4FD0A500FA5880 /* Build configuration list for PBXNativeTarget "Warmup 01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843485311D4FD0A500FA5880 /* Debug */,
+				843485321D4FD0A500FA5880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		843485331D4FD0A500FA5880 /* Build configuration list for PBXNativeTarget "Warmup 01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843485341D4FD0A500FA5880 /* Debug */,
+				843485351D4FD0A500FA5880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8434850B1D4FD0A500FA5880 /* Project object */;
+}
