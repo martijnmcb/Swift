@@ -2,4 +2,12 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var isMyHousOnFire: Bool = true
+
+
+if isMyHousOnFire {
+    print ("FIK", terminator:"  ")
+} else
+    {print ("geen fik", terminator:"")
+    
+}
