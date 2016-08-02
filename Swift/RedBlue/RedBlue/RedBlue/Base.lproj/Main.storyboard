@@ -17,36 +17,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRq-OP-fsx">
-                                <rect key="frame" x="20" y="351" width="345" height="88"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRq-OP-fsx">
+                                <rect key="frame" x="42" y="559" width="264" height="88"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Ziek melden"/>
                                 <connections>
                                     <action selector="hideBlue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G7e-Jv-hvS"/>
                                 </connections>
                             </button>
-                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqX-eB-AI3">
-                                <rect key="frame" x="0.0" y="0.0" width="610" height="55"/>
-                                <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="SmartWheels " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kbu-dA-ilu">
-                                        <rect key="frame" x="115" y="17" width="153" height="30"/>
-                                        <color key="backgroundColor" red="0.40846322219999998" green="1" blue="0.42668141780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
-                                    </textField>
-                                </subviews>
-                                <color key="backgroundColor" red="0.3902037438" green="1" blue="0.63602947249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="schoolbus" translatesAutoresizingMaskIntoConstraints="NO" id="kHD-g2-Umg">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="schoolbus" translatesAutoresizingMaskIntoConstraints="NO" id="kHD-g2-Umg">
                                 <rect key="frame" x="-16" y="63" width="433" height="251"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="r3y-wp-GKS">
-                                <rect key="frame" x="0.0" y="56" width="381" height="265"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="r3y-wp-GKS">
+                                <rect key="frame" x="0.0" y="130" width="381" height="265"/>
                             </imageView>
+                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqX-eB-AI3">
+                                <rect key="frame" x="0.0" y="0.0" width="847" height="55"/>
+                                <color key="backgroundColor" red="0.3902037438" green="1" blue="0.63602947249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="457-fs-vnJ"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="SmartWheels " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kbu-dA-ilu">
+                                <rect key="frame" x="94" y="53" width="192" height="35"/>
+                                <color key="backgroundColor" red="0.40846322219999998" green="1" blue="0.42668141780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wqX-eB-AI3" secondAttribute="bottom" constant="612" id="0aP-Lb-Hyw"/>
+                            <constraint firstItem="wqX-eB-AI3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7fO-pp-ANm"/>
+                            <constraint firstItem="r3y-wp-GKS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8WJ-34-BTy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YRq-OP-fsx" secondAttribute="bottom" constant="10" id="FIy-KY-G9a"/>
+                            <constraint firstItem="r3y-wp-GKS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NhD-eo-6hP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YRq-OP-fsx" secondAttribute="bottom" constant="10" id="Ucz-nd-vcd"/>
+                            <constraint firstItem="Kbu-dA-ilu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="WdG-as-185"/>
+                            <constraint firstItem="wqX-eB-AI3" firstAttribute="leading" secondItem="r3y-wp-GKS" secondAttribute="leading" id="Wnl-px-ops"/>
+                            <constraint firstAttribute="trailing" secondItem="wqX-eB-AI3" secondAttribute="trailing" constant="-472" id="XF1-dx-Qkx"/>
+                            <constraint firstItem="Kbu-dA-ilu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c0A-O3-0vO"/>
+                            <constraint firstItem="kHD-g2-Umg" firstAttribute="top" secondItem="wqX-eB-AI3" secondAttribute="bottom" constant="8" symbolic="YES" id="cHV-cs-LY8"/>
+                            <constraint firstItem="wqX-eB-AI3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fey-UQ-LLu"/>
+                            <constraint firstItem="kHD-g2-Umg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kVw-0X-TiR"/>
+                            <constraint firstItem="kHD-g2-Umg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nBg-ZX-cr3"/>
+                            <constraint firstItem="YRq-OP-fsx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sGs-ZM-eWC"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="31z-MK-juL" appends="YES" id="Y7s-vK-Ann"/>
                         </connections>
@@ -61,7 +79,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="31z-MK-juL"/>
             </objects>
-            <point key="canvasLocation" x="139.5" y="136.5"/>
+            <point key="canvasLocation" x="166.5" y="134.5"/>
         </scene>
     </scenes>
     <resources>
